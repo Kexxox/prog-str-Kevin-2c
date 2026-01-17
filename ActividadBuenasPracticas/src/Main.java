@@ -1,9 +1,24 @@
 import java.util.Scanner;
-public class Main{
-    public static void main(String[]a){
-        Scanner sc=new Scanner(System.in);
-        System.out.print("n:");int n=sc.nextInt();
-        int s=0;
-        for(int i=1;i<=n;i++){s+=i;}
-        System.out.println("r:"+s);
-    }}
+
+public class Main {
+
+    public static void main(String[] args) {
+        int limite = Entero();
+        SumarN(limite);
+    }
+    public static int Entero() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa un numero entero: ");
+
+        int nUsuario = scanner.nextInt();
+        return nUsuario;
+    }
+    public static void SumarN(int limite) {
+        int suma = 0;
+
+        for (int contador = 1;contador <= limite; contador++) {
+            suma = suma + contador;
+        }
+        System.out.println("El resultado de la suma es: " + suma);
+    }
+}
