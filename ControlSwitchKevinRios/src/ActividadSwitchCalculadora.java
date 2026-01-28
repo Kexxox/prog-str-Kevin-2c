@@ -9,7 +9,7 @@ public class ActividadSwitchCalculadora {
         System.out.println("Sumar : 1 ");
         System.out.println("Restar : 2 ");
         System.out.println("Multiplicar : 3 ");
-        System.out.println("Diviri : 4");
+        System.out.println("Dividir : 4");
 
         int opcion = leer.nextInt();
         if (opcion < 1 || opcion > 4) {
