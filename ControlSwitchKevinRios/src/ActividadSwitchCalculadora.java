@@ -50,16 +50,16 @@ public class ActividadSwitchCalculadora {
             case 4:
                 System.out.println("Operación elegida : DIVISION");
                 resul = a / b;
-                System.out.println("Operación: División");
-                System.out.println("Valores ingresados: a = " + a + ", b = " + b);
-
+                System.out.println("Los numeros ingresados fueron:");
+                System.out.println(a);
+                System.out.println(b);
                 if (b == 0) {
                     System.out.println("No se puede dividir entre cero");
                 } else {
                     resul = a / b;
-                    System.out.println("Resultado: " + resul);
-
+                    System.out.println("El resultado de la division es: " + resul);
                 }
+
             default:
                 System.out.println("Opción inválida");
         }
