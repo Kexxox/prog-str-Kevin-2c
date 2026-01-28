@@ -12,10 +12,13 @@ public class ActividadSwitchCalculadora {
         System.out.println("Diviri : 4");
 
         int opcion = leer.nextInt();
+        if (opcion < 1 || opcion > 4) {
+            System.out.println("Opción inválida");
+            return;}
         double resul;
 
         System.out.println("Ingresa el primer valor a calcular : ");
-        double a = leer.nextDouble();
+            double a = leer.nextDouble();
         System.out.println("Ingresa el segundo valor a calcular : ");
         double b = leer.nextDouble();
 
