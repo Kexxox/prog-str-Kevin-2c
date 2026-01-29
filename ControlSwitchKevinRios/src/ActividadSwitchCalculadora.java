@@ -13,7 +13,7 @@ public class ActividadSwitchCalculadora {
 
         int opcion = leer.nextInt();
         if (opcion < 1 || opcion > 4) {
-            System.out.println("Opción inválida");
+            System.out.println();
             return;}
         double resul;
 
