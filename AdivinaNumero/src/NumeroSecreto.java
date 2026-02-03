@@ -8,7 +8,7 @@ public class NumeroSecreto {
         int min=1;
         int max=100;
         int intentos = 0;
-        int limiteIntentos=5;
+        int limiteIntentos=7;
         boolean gano = false;
         int secreto = random.nextInt(100)+1;
 
