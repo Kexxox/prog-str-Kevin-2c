@@ -1,4 +1,3 @@
-import java.io.FilterOutputStream;
 import java.util.Scanner;
 
 public class Conversion {
