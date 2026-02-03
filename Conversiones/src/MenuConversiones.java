@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Conversion {
+public class MenuConversiones {
 
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
