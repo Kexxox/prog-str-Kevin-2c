@@ -18,13 +18,13 @@ public class NumeroSecreto {
             int numero=obtenerNumeroValido("Intento: "+(intentos+1),leer,min,max);
             intentos++;
             if(numero==secreto){
-                System.out.println("Felicidades ganaset en el intento: "+intentos);
+                System.out.println("Felicidades ganaset en el intento: "+ intentos);
                 gano=true;
                 break;
             }else if(numero>secreto) {
-                System.out.println("El numero secreto es menor a" +numero);
+                System.out.println("El numero secreto es menor a " +numero);
             }else{
-                System.out.println("El numero secreto es mayor a "+secreto);
+                System.out.println("El numero secreto es mayor a " +secreto);
             }
         }
         if(!gano){
