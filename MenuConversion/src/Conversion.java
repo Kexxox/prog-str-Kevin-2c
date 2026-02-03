@@ -66,7 +66,7 @@ public class Conversion {
         } while (opcion != 5);
 
         int total = C_a_F + F_a_C + Km_a_M + M_a_Km;
-        System.out.println("Datos recopilados:");
+        System.out.println("Cuántas conversiones de cada tipo se hicieron:");
         System.out.println("Total conversiones: " + total);
         System.out.println("°C a °F: " + C_a_F);
         System.out.println("°F a °C: " + F_a_C);
