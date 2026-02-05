@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Mainsz {
 
     public static void main(String[] args) {
         int limite = Entero();
