@@ -19,7 +19,6 @@ public class Main {
 
     }
 
-
     static double leerDouble(Scanner leer, String msg, double min, int max){
         double valor;
         do {
@@ -40,6 +39,7 @@ public class Main {
         System.out.print(msg);
         return leer.nextBoolean();
     }
+
 
     static void ImprimirTicket(int servicio, double peso, int distancia, boolean zonaRemota, double subtotal, double iva, double total){
         String tipoServicio;
